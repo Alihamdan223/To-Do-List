@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: rgb(224, 219, 219);
+  border-bottom: 1px solid silver;
+}
+
+#To-Do-List {
+  font-weight: 500;
+  font-size: 3.2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 410px;
+}
+
+.search-bar {
+  padding: 7px 10px;
+  border: none;
+  border-bottom: 3px solid silver;
+  outline: none;
+}
+
+.add-bar {
+  padding: 7px 10px;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(224, 219, 219);
+  height: 85px;
+}
+
+.thefooter {
+  display: flex;
+  align-items: center;
+  font-size: 1.7em;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.thefooter::before {
+  position: relative;
+  content: "";
+  border: 1px solid silver;
+  height: 83px;
+  right: 14%;
+}
+
+.thefooter li {
+  width: 100px;
+}
+
+.add-input {
+  padding: 10px 7px;
+  border: none;
+  outline: none;
+}
+
+.add-button {
+  border: none;
+  background-color: darkgrey;
+  padding: 7px;
+  font-family: cursive;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(224, 219, 219);
+  padding: 8px 10px;
+}
+
+.delete-button {
+  margin-left: auto;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  background-color: silver;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: grey;
+}
